@@ -5,10 +5,9 @@
 <img src="https://img.gta5-mods.com/q95/images/naturalvision-photorealistic-gtav/b4de94-GTA5%202016-08-28%2022-05-52.jpg" alt="Self-Driving Car" width="900px">
 
 ## Installation
-1. Make sure GTAV is on version 1.0.1180.2 or below
-2. Copy-paste the contents of *bin/Release* under your GTAV installation directory
-3. Replace your saved game data in *Documents/Rockstar Games/GTA V/Profiles/* with the contents of *bin/SaveGame*
-4. Download *[paths.xml](https://drive.google.com/file/d/0B6pR5O2YrmHnNU9EMDBSSFpMV00/view?usp=sharing)* and store it also in the GTAV installation directory. 
+1. Copy-paste the contents of *bin/Release* under your GTAV installation directory
+2. Replace your saved game data in *Documents/Rockstar Games/GTA V/Profiles/* with the contents of *bin/SaveGame*
+3. Download *[paths.xml](https://drive.google.com/file/d/0B6pR5O2YrmHnNU9EMDBSSFpMV00/view?usp=sharing)* and store it also in the GTAV installation directory. 
 
 ## Recommendations
 
