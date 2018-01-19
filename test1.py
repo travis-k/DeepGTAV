@@ -19,18 +19,29 @@ if __name__ == '__main__':
 
     # Creating the "start" settings, which we send to the game to begin
     message = Start(scenario=Scenario(drivingMode=-1))
-    
+    print(message.to_json())
     jsonstr = message.to_json().encode('utf-8')
-    print(len(jsonstr).to_bytes(4, byteorder='little'))
-    print(jsonstr)
+
+    try:
+        print(list(len(jsonstr).to_bytes(4, byteorder='little')))
+        print(list(jsonstr))
+    except:
+        print("Oh no!")
+
     s.sendall(len(jsonstr).to_bytes(4, byteorder='little'))
     s.sendall(jsonstr)
 
     # Creating and sending the "stop" message
     message = Stop()
+    print(message.to_json())
     jsonstr = message.to_json().encode('utf-8')
-    print(len(jsonstr).to_bytes(4, byteorder='little'))
-    print(jsonstr)
+
+    try:
+        print(list(len(jsonstr).to_bytes(4, byteorder='little')))
+        print(list(jsonstr))
+    except:
+        print("Oh no 2!")
+
     s.sendall(len(jsonstr).to_bytes(4, byteorder='little'))
     s.sendall(jsonstr)
 
